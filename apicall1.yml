@@ -6,4 +6,4 @@
   tasks:
     - name: Esto es una prueba
       debug:
-        msg: "Esto es una prsueba 1 a vesar si furrmsnfaaaa"
+        msg: "Esto es una prsueba 1 a vesar si furraaa"
