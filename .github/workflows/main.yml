@@ -1,0 +1,20 @@
+name: AWX Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  awx-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Call AWX webhook
+        id: call-webhook
+        run: |
+          exit 1
+          exit 0
